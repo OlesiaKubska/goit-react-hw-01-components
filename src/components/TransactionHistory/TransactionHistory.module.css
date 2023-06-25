@@ -2,9 +2,8 @@
     width: 100%;
     border-collapse: collapse;
     border-radius: 8px;
-    margin-left: 32px;
-    margin-right: 32px;
     padding: 16px;
+    overflow: auto;
 }
 
 .transaction-history th,
@@ -15,9 +14,9 @@
 }
 
 .transaction-history th {
-    background-color: #f0f0f0;
+    background-color: blue;
     font-weight: bold;
-    color: blue;
+    color: #f0f0f0;
     text-transform: uppercase;
 }
 

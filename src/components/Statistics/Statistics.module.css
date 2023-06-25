@@ -18,17 +18,46 @@
 
 .stat-list {
     list-style: none;
-    padding: 0;
+    padding: 8px;
     margin: 0;
     display: flex;
     justify-content: space-between;
     gap: 10px;
 }
 
+.stat-list li {
+    flex-basis: 16.66%;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid blue;
+}
+
+.stat-list li:nth-child(1) {
+    background-color: red;
+}
+
+.stat-list li:nth-child(2) {
+    background-color: orange;
+}
+
+.stat-list li:nth-child(3) {
+    background-color: green;
+}
+
+.stat-list li:nth-child(4) {
+    background-color: orangered;
+}
+
+.stat-list li:nth-child(5) {
+    background-color: orchid;
+}
+
 .item {
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
+    border-radius: 4px;
+    box-shadow: rgb(255, 255, 255) -1px -1px 1px, rgb(186, 204, 203) 1px 1px 1px;
 }
 
 .label {

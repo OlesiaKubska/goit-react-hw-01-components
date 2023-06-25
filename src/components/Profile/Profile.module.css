@@ -49,6 +49,9 @@
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
+    flex-basis: 33.33%;
+    border: 1px solid blue;
+    padding: 8px;
 }
 
 .label {
